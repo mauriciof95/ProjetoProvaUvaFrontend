@@ -29,6 +29,7 @@ onMounted(() => {
                                 <th>Valor do Pedido</th>
                                 <th>Valor do Desconto</th>
                                 <th>Status</th>
+                                <th></th>
                             </tr>
                         </thead>
                         <tbody class="tbody">

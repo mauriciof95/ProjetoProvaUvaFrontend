@@ -83,11 +83,13 @@ export function useAuth() {
         http({ Authorization: pegarToken() })
             .post('/api/cliente/logout')
             .then((e) => {
-                deletarTokenLocalStorage()
                 checkClienteLogado()
-                router.push({ name: 'home' })
             })
             .catch(() => {})
+            .finally(() => {
+                deletarTokenLocalStorage()
+                router.push({ name: 'home' })
+            })
     }
 
     function salvarTokenLocalStorage(token: Token) {
