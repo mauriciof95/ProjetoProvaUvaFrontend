@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu-item {
+    @apply mt-3 text-gray-600 hover:underline sm:mx-3 sm:mt-0;
+}
+
+.table {
+    @apply w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 border-t;
+}
+
+.table .thead,
+.table .tfoot {
+    @apply text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400;
+}
+
+.thead th,
+.tfoot th {
+    @apply px-6 py-3;
+}
+
+.table .tbody {
+    @apply bg-white;
+}
+
+.tbody tr {
+    @apply border-b;
+}
+
+.tbody tr td,
+.tbody tr th {
+    @apply px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white;
+}
+
+.badge {
+    @apply text-xs font-medium me-2 px-2.5 py-0.5 rounded;
+}
