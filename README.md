@@ -1,61 +1,31 @@
 # Frontend-Vue
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Configurações do projeto
 
-## Type Support for `.vue` Imports in TS
+### Configurando Api
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+No arquivo `http.services.ts` em src/services, informe a url da api no variavel `apiUrl`, deixei configurado localhost:8000 que é a url padrão do laravel.
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
+### Execute o comando para instalar as dependencias
 ```sh
 npm install
 ```
 
-### Compile and Hot-Reload for Development
+### Execure o comando para rodar o projeto
 
 ```sh
 npm run dev
 ```
 
-### Type-Check, Compile and Minify for Production
+## Tecnologias Usadas
 
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-npm run test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-npm run build
-npm run test:e2e
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
+`heroicons versão 2.1.5`\
+`vuelidate versão versão 2.0.4`\
+`axios versão 1.7.7`\
+`maska versão 3.0.3`\
+`vue versão 3.4.29`\
+`postcss versão 8.4.47`\
+`tailwindcss versão  3.4.13`\
+`typescript versão  5.4.0`
