@@ -51,7 +51,7 @@ watch(
         id="authentication-modal"
         tabindex="-1"
         aria-hidden="true"
-        class="backdrop-blur-sm flex justify-center items-center overflow-y-auto overflow-x-hidden bg-slate-800 bg-opacity-35 z-50 absolute left-0 top-0 bottom-0 right-0"
+        class="backdrop-blur-sm flex justify-center items-center overflow-y-auto overflow-x-hidden bg-slate-800 bg-opacity-35 z-50 fixed left-0 top-0 bottom-0 right-0"
     >
         <div
             class="relative p-4 w-full max-h-min"
